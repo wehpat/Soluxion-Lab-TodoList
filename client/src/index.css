@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-brownBackground: #FAF0EF;
+    --color-brownDefault: #B6A08B;
+    --color-listFocus: #D2C9CA;
+}
+
+body {
+    @apply bg-brownBackground;
+    @apply font-serif;
+}
