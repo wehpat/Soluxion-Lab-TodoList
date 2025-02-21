@@ -2,11 +2,13 @@
 
 @theme {
     --color-brownBackground: #FAF0EF;
+    --color-backgroundBrown2: #EFE6E5;
+    --color-backgroundLightBlue: #E4E3E8;
     --color-brownDefault: #B6A08B;
     --color-listFocus: #D2C9CA;
 }
 
 body {
-    @apply bg-brownBackground;
+    @apply bg-gradient-to-b from-brownBackground to-backgroundBrown2;
     @apply font-serif;
 }
